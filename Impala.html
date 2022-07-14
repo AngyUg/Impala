@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impala🏎</title>
+    <style>
+      .text-formatting {
+        word-break: break-word;
+        text-align: center;
+        position: relative;
+        border-radius: 9px;
+        padding: 24px;
+        background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+        margin-bottom: 24px;
+        margin-left: 160px;
+        margin-right: 160px;
+      }
+      .main {
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid whitesmoke;
+        border-radius: 4px;
+        color: #140e25c9;
+        font-size: 75px;
+
+        font-family: "Cookie", cursive;
+        font-family: "Yellowtail", cursive;
+        text-align: center;
+        text-shadow: 5px 5px 10px;
+      }
+      .pre-main {
+        -webkit-font-smoothing: antialiased;
+        font-size: 40px;
+        color: #140e25c9;
+      }
+      .impala {
+        opacity: 0.7;
+        border-top-left-radius: 4%;
+        border-top-right-radius: 4%;
+        border-bottom-left-radius: 4%;
+        border-bottom-right-radius: 4%;
+      }
+      .about {
+        padding: 30;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 33px;
+        text-align: justify;
+        color: #140e25a9;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        line-height: 1.4;
+      }
+      hr {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      button {
+        font-size: 28px;
+        width: 315.975px;
+        height: 65.975px;
+        color: #fff;
+        border-radius: 5px;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        display: inline-block;
+        box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+          7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+          4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+        outline: none;
+      }
+      button:hover {
+        width: 320.975px;
+        height: 70.975px;
+        background-image: linear-gradient(to top, #9890e3 20%, #b1f4cf8a 80%);
+      }
+      a {
+        font-size: 25px;
+        margin-right: 20px;
+        color: #fff;
+      }
+      .fio {
+        text-align: right;
+        font-size: 22px;
+        color: #fff;
+        font-family: monospace;
+        margin-bottom: 0px;
+        margin-top: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-formatting">
+      <h1 class="main">I love Impala</h1>
+      <h2 class="pre-main">1968 Chevrolet Impala SS427</h2>
+      <br />
+      <hr />
+      <img
+        class="impala"
+        src="https://img.hmn.com/900x0/stories/2018/07/67335.jpg"
+        alt="Impala"
+        width="700 px"
+      />
+      <hr />
+      <br />
+      <p class="about">
+        A "charged" version of the <strong>Chevrolet Impala</strong> was
+        released: the <b>SS427</b> (SS = Super Sport) Impala, it had the largest
+        engine in the third generation of the Impala (427 335bhp-425bhp Turbo
+        Jet V8), was a two-door and cost over $5000 at the time, making it one
+        of the most expensive cars of the time (no other Impala could compare in
+        value with the SS427), and the only thing that distinguished the SS427
+        from the usual "family" Impalas in appearance were the "SS" and "427"
+        badges on the trunk and fenders. The Impala SS is considered the car
+        that ushered in the era of muscle cars.
+      </p>
+      <samp>👀</samp>
+      <a
+        href="https://www.chevyhardcore.com/features/car-features/impala-ss427/"
+      >
+        History</a
+      >
+      <button>Buy this wheels</button>
+      <p class="fio">Coded by <em>Yuga Angelina</em></p>
+    </div>
+  </body>
+  <script>
+    function buy() {
+      let introduse = prompt(
+        "You wanna rock the road with this wheels? Tell me Your name then?"
+      );
+      if (introduse.length > 0) {
+        alert(
+          `My congradulations ${introduse}😎!!! It's the best day of Your life`
+        );
+      } else {
+        alert("Jane Dou does not wanna ride this wheels");
+      }
+    }
+
+    let buyButton = document.querySelector("button");
+    buyButton.addEventListener("click", buy);
+  </script>
+</html>
