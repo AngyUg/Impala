@@ -9,6 +9,11 @@
   margin-left: 160px;
   margin-right: 160px;
 }
+.container {
+  min-width: 690px;
+  display: block;
+}
+
 .main {
   margin-left: 20px;
   margin-right: 20px;
